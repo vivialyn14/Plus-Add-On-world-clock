@@ -49,17 +49,17 @@ h3 {
   margin: 0px;
 }
 
-.city-time {
+.time {
   font-size: 30px;
   font-weight: bold;
 }
 
-.city-time small {
+.time small {
   font-size: 14px;
   vertical-align: middle;
 }
 
-.city-date {
+.date {
   text-align: right;
   opacity: 0.7;
 }
@@ -69,4 +69,8 @@ footer p {
   opacity: 0.5;
   margin-top: 50px;
   margin-bottom: 10px;
+}
+
+footer a {
+  color: #ff7f5b;
 }

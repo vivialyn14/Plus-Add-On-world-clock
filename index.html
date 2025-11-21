@@ -11,11 +11,10 @@
   <body>
     <div class="app-container">
       <header><h1>World Clock</h1></header>
+      <p class="subtitle">
+        Choose a city from the drop-down menu to see the current time and date.
+      </p>
       <main>
-        <p class="subtitle">
-          Choose a city from the drop-down menu to see the current time and
-          date.
-        </p>
         <select name="cities" id="city-select">
           <option value="">Select a city...</option>
           <option value="current">My current location</option>
@@ -26,7 +25,41 @@
           <option value="America/Los_Angeles">Los Angeles</option>
           <option value="America/New_York">New York</option>
         </select>
-        <div class="times" id="times"></div>
+        <div class="times" id="times">
+          <div class="city" id="london">
+            <div>
+              <div class="name">
+                <h3>London</h3>
+              </div>
+            </div>
+            <div>
+              <div class="time">14:30:28</div>
+              <div class="date">21st November 2025</div>
+            </div>
+          </div>
+          <div class="city" id="sydney">
+            <div>
+              <div class="name">
+                <h3>Sydney</h3>
+              </div>
+            </div>
+            <div>
+              <div class="time">14:30:28</div>
+              <div class="date">21st November 2025</div>
+            </div>
+          </div>
+          <div class="city" id="new-york">
+            <div>
+              <div class="name">
+                <h3>New York</h3>
+              </div>
+            </div>
+            <div>
+              <div class="time">14:30:28</div>
+              <div class="date">21st November 2025</div>
+            </div>
+          </div>
+        </div>
       </main>
       <footer>
         <p>
