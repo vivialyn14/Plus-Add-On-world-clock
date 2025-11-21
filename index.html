@@ -13,10 +13,12 @@
       <header><h1>World Clock</h1></header>
       <main>
         <p class="subtitle">
-          View times below, or choose a city from the drop-down menu.
+          Choose a city from the drop-down menu to see the current time and
+          date.
         </p>
         <select name="cities" id="city-select">
           <option value="">Select a city...</option>
+          <option value="current">My current location</option>
           <option value="Europe/London">London</option>
           <option value="Europe/Paris">Paris</option>
           <option value="Australia/Sydney">Sydney</option>
@@ -24,26 +26,7 @@
           <option value="America/Los_Angeles">Los Angeles</option>
           <option value="America/New_York">New York</option>
         </select>
-        <div class="times" id="times">
-          <div class="city" id="london">
-            <div>
-              <div class="city-name"><h3>London 🇬🇧</h3></div>
-            </div>
-            <div>
-              <div class="city-time">11:36:25 <small>AM</small></div>
-              <div class="city-date">21st November 2025</div>
-            </div>
-          </div>
-          <div class="city" id="paris">
-            <div>
-              <div class="city-name"><h3>Paris 🇫🇷</h3></div>
-            </div>
-            <div>
-              <div class="city-time">12:36:25 <small>AM</small></div>
-              <div class="city-date">21st November 2025</div>
-            </div>
-          </div>
-        </div>
+        <div class="times" id="times"></div>
       </main>
       <footer>
         <p>
